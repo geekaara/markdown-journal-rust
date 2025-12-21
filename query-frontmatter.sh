@@ -5,4 +5,4 @@
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 # Run from project root so journal directory is found
-cd "$SCRIPT_DIR" && .tech/code/rust_scripts/frontmatter_query/target/release/frontmatter-query "$@"
+cd "$SCRIPT_DIR" && .tech/code/rust_scripts/frontmatter_query/target/release/frontmatter-query --path ../life "$@"

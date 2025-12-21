@@ -3,4 +3,4 @@
 
 echo "🔄 Reindexing journal with Rust RAG..."
 # Run from project root to ensure relative paths work correctly
-.tech/code/rust_scripts/rag_search/target/release/rag-index --rebuild
+.tech/code/rust_scripts/rag_search/target/release/rag-index --journal-dir ../life --rebuild
